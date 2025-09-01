@@ -1,1 +1,90 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy • Alarm Stacks</title>
+  <meta name="description" content="Privacy Policy for the iOS app Alarm Stacks." />
+  <style>
+    :root { --ink:#0b0c0c; --muted:#666; --line:#e5e7eb; --bg:#f7f8f9; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif; margin:0; color:var(--ink); }
+    header { background: var(--bg); }
+    header .inner, main, footer { max-width: 880px; margin: 0 auto; padding: 1.25rem; }
+    h1 { margin: 0 0 .25rem 0; font-size: 2rem; }
+    h2 { margin-top: 1.5rem; font-size: 1.25rem; }
+    p { line-height: 1.7; }
+    ul { line-height: 1.7; }
+    footer { color: var(--muted); }
+    a { color: inherit; }
+    .muted { color: var(--muted); }
+    .note { background:#fff; border:1px solid var(--line); border-radius:10px; padding:1rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <h1>Privacy Policy</h1>
+      <p class="muted">for <strong>Alarm Stacks</strong></p>
+      <p class="muted"><small>Effective date: 1 September 2025</small></p>
+    </div>
+  </header>
+
+  <main>
+    <p>This Privacy Policy explains how Alarm Stacks (“the App”) handles information. The App is published by Alarm Stacks (“we”, “us”).</p>
+
+    <h2>Summary</h2>
+    <ul>
+      <li><strong>We do not collect personal data</strong> in the App and we do not run any servers.</li>
+      <li>Settings and routine data are stored on your device (and shared locally with the widget via an App Group).</li>
+      <li>Purchases are processed by Apple’s App Store; we don’t receive your card details.</li>
+      <li>Crash diagnostics may be shared by Apple if you opt in at the OS level; these are anonymised.</li>
+    </ul>
+
+    <h2>What the App does on your device</h2>
+    <ul>
+      <li><strong>Alarms & Timers (AlarmKit).</strong> We schedule alarms and countdown timers so they alert reliably, including during Silent/Focus. The App shows Live Activities on the Lock Screen/Dynamic Island.</li>
+      <li><strong>Notifications.</strong> We register notification categories (Stop/Snooze) and may schedule silent, passive notifications to implement snooze. We do not use remote push notifications.</li>
+      <li><strong>Background tasks.</strong> We register permitted background tasks to prepare alarms for reliability.</li>
+      <li><strong>App Intents & Shortcuts.</strong> You can create/start stacks via Shortcuts. Siri/Intents processing is handled by Apple.</li>
+      <li><strong>On-device routine generation (optional).</strong> If you use it, text is processed by Apple’s on-device models; no data is sent to our servers.</li>
+      <li><strong>App Group.</strong> We use an App Group (e.g., <code>group.com.hodlsimulator.alarmstacks</code>) to share minimal state between the app and its extensions on your device. This does not transmit data to us.</li>
+    </ul>
+
+    <h2>Information we don’t collect</h2>
+    <p>We don’t collect your name, email, contacts, precise location, identifiers for tracking, or any routine content. The App has no third-party analytics SDKs and no advertising.</p>
+
+    <h2>Purchases</h2>
+    <p>We offer in-app purchases/subscriptions via StoreKit. Apple processes payment; we receive transaction status/entitlement information only, used to unlock features you’ve bought.</p>
+
+    <h2>Crash reports & diagnostics</h2>
+    <p>If you enable “Share with App Developers” in iOS, Apple may provide anonymised crash logs so we can improve stability. We cannot identify you from these logs.</p>
+
+    <h2>Children</h2>
+    <p>The App is not directed at children under 13. If a parent/guardian contacts us regarding information sent via email, we will delete it.</p>
+
+    <h2>Your choices</h2>
+    <ul>
+      <li><strong>Delete local data:</strong> delete the app from your device.</li>
+      <li><strong>Notifications:</strong> you can change notification permissions in iOS Settings → Notifications.</li>
+      <li><strong>Live Activities:</strong> control Lock Screen/Dynamic Island visibility in Settings.</li>
+      <li><strong>Purchases:</strong> you can restore purchases from within the app.</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:support@alarmstacks.com">support@alarmstacks.com</a></p>
+
+    <h2>Changes to this policy</h2>
+    <p>We may update this policy as the app evolves or to reflect legal requirements. Material changes will be noted here with a new effective date.</p>
+
+    <p class="muted">Publisher: Alarm Stacks • Ireland</p>
+  </main>
+
+  <footer>
+    <div class="inner">
+      <p>© <span id="y"></span> Alarm Stacks.</p>
+      <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+    </div>
+  </footer>
+</body>
+</html>
 
