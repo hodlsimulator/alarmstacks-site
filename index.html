@@ -1,1 +1,72 @@
 
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Alarm Stacks — Routine Alarm Clock for iPhone</title>
+  <meta name="description" content="Alarm Stacks lets you compose routine 'stacks' from system alarms and timers with reliable alerts, Live Activities, and on-device routine generation." />
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    :root { --ink:#0b0c0c; --muted:#666; --line:#e5e7eb; --bg:#f7f8f9; }
+    * { box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif; margin:0; color:var(--ink); }
+    header { background: var(--bg); }
+    header .inner, main, footer { max-width: 880px; margin: 0 auto; padding: 1.25rem; }
+    h1 { margin: 0 0 .25rem 0; font-size: 2rem; }
+    h2 { margin-top: 1.75rem; font-size: 1.25rem; }
+    p { line-height: 1.6; }
+    nav a { margin-right: 1rem; }
+    .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+    .card { border:1px solid var(--line); border-radius:10px; padding:1rem; background:#fff; }
+    .muted { color: var(--muted); }
+    .cta { display:inline-block; padding:.75rem 1rem; border:1px solid var(--ink); border-radius:10px; text-decoration:none; margin-top:.5rem; }
+    footer { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <h1>Alarm Stacks</h1>
+      <p class="muted">A beautiful, system-level routine alarm clock for iPhone.</p>
+      <nav>
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/support.html">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="grid">
+      <div class="card">
+        <h2>Stacks of Alarms & Timers</h2>
+        <p>Compose stepwise routines (e.g., <em>Wake → Hydrate → Stretch → Shower → Leave</em>). Each step is a real <strong>AlarmKit</strong> alarm or timer so alerts are reliable and cut through Silent/Focus.</p>
+      </div>
+      <div class="card">
+        <h2>Live Activities & Dynamic Island</h2>
+        <p>See countdowns on the Lock Screen and Dynamic Island, with quick actions to snooze, skip or complete steps.</p>
+      </div>
+      <div class="card">
+        <h2>On-device Routine Generation (optional)</h2>
+        <p>Type “6:30 gym then shower and coffee” and get a proposed stack — processed on your device using Apple’s on-device models. No servers.</p>
+      </div>
+      <div class="card">
+        <h2>Shortcuts, App Intents & Visual Intelligence</h2>
+        <p>Create and start stacks via Shortcuts. Surface routines from screenshots or on-screen text with Visual Intelligence.</p>
+      </div>
+      <div class="card">
+        <h2>Made for iOS 26</h2>
+        <p>Built on AlarmKit, ActivityKit and StoreKit 2. No third-party analytics or ads.</p>
+      </div>
+    </section>
+
+    <p class="muted">Publisher: Alarm Stacks • Ireland</p>
+    <a class="cta" href="/privacy.html">Read the Privacy Policy</a>
+  </main>
+
+  <footer>
+    <p>© <span id="y"></span> Alarm Stacks. All rights reserved.</p>
+    <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
